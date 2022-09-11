@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+#cpf {
+  margin-left: 15px;
+  padding: 5px;
+}
+
+#botao {
+  padding: 5px;
+}
+
+p {
+  padding: 1px;
+}
+
+#erro {
+  padding: 5px;
+  display: none;
+  color: red;
+}
+
+#acerto {
+  padding: 5px;
+  display: none;
+  color: green;
+}
